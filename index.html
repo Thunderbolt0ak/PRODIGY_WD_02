@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>STOPWATCH</h1>
+    <hr>
+    <div class="box">
+        <div class="stopwatch">
+            <div class="time" id="time">00:00:00.0</div>
+            <div class="buttons">
+                <button id="startBtn" onclick="toggle()">Start</button>
+                <button id="resetBtn" onclick="reset()">Reset</button>
+                <button id="lapBtn" onclick="lap()">Lap</button>
+            </div>
+            <div class="laps" id="laps"></div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+
+</html>
