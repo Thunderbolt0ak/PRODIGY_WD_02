@@ -1,30 +1,39 @@
-*{
+* {
     text-align: center;
     color: rgb(233, 164, 242);
     font-family: Arial, sans-serif;
 }
-body{
+
+body {
     height: 100vh;
     margin: 0;
 
-    background-color: rgb(42, 4, 42);}
-.box{
+    background-color: rgb(42, 4, 42);
+}
+
+.box {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;}
-.stopwatch{background-color: rgb(68, 24, 70);
+    align-items: center;
+}
+
+.stopwatch {
+    background-color: rgb(68, 24, 70);
     width: 30%;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(236, 133, 240, 0.484);
     text-align: center;
 }
-.time{
+
+.time {
     color: white;
     font-size: 48px;
-    margin-bottom: 20px;}
-.buttons button{
+    margin-bottom: 20px;
+}
+
+.buttons button {
     font-size: 16px;
     margin: 5px;
     padding: 10px 20px;
@@ -32,33 +41,48 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
-#startBtn{
-    background-color: #c897d8;;
-        color: white;}
-#startBtn:hover{
+
+#startBtn {
+    background-color: #c897d8;
+    ;
+    color: white;
+}
+
+#startBtn:hover {
     background-color: #ac7cbc;
     ;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);}
-#resetBtn{ background-color: #fc6a97;
-    color: white;}
-#resetBtn:hover{
-background-color: #d55a7f;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);}
-#lapBtn{
-    background-color: #3878e2;
-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
 }
-#lapBtn:hover{
+
+#resetBtn {
+    background-color: #fc6a97;
+    color: white;
+}
+
+#resetBtn:hover {
+    background-color: #d55a7f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
+}
+
+#lapBtn {
+    background-color: #3878e2;
+    color: white;
+}
+
+#lapBtn:hover {
     background-color: #3164b7;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
 }
-.laps{
- margin-top: 20px;
+
+.laps {
+    margin-top: 20px;
     text-align: left;
 }
-.lap{
- color: black;
-   margin-bottom: 5px;
-   padding: 5px;
+
+.lap {
+    color: black;
+    margin-bottom: 5px;
+    padding: 5px;
     background-color: rgb(245, 187, 244);
-    border-radius: 5px;}
+    border-radius: 5px;
+}
